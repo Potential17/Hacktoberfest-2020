@@ -28,11 +28,11 @@ li {
     text-align: center;
 }
 .jumbotron-fluid h1{
-    color: black;
+    color: #000000;
     font-size: 8rem;
 }
 .jumbotron-fluid p{
-    color: black;
+    color: #000000;
    
 }
 #footer{
