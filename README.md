@@ -6,12 +6,14 @@
 
 ### Clone your forked repository to your local machine.
 
-### Add your name in Contributors.md file.
+### In the index file, look for the 'ol' tag. Then insert a 'li' tag with your link to your profile.
+
+### Add your name in index.html file.
 
 ### Write these command on your terminal-
 
 ```sh
-git add -A
+git add index.html
 ```
 
 ```sh
@@ -19,7 +21,11 @@ git commit -m "your name"
 ```
 
 ```sh
-git push origin master
+git remote add [remote-name] [put the github link here]
+```
+
+```sh
+git push [remote-name] master
 ```
 
 --> Then create your pull request.
