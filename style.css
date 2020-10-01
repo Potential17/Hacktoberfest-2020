@@ -2,9 +2,26 @@
 * {
     box-sizing: border-box;
 }
+body{
+  background: rgb(19,19,20);
+background: linear-gradient(90deg, rgba(19,19,20,1) 0%, rgba(59,56,56,1) 50%, rgba(0,0,0,1) 100%);
+}
 h1{
     margin: 0;
+    font-family: 'Grandstander', cursive;
 
+}
+a{
+  color: #F8F8FF;
+}
+a:hover {
+  color: rgb(19,19,20);
+  background: rgb(247,173,94);
+  background: linear-gradient(90deg, rgba(247,173,94,1) 0%, rgba(250,141,26,1) 50%, rgba(247,173,94,1) 100%);
+}
+h2{
+  color: #F8F8FF;
+  font-family: 'Roboto', sans-serif;
 }
 .jumbotron-fluid{
     padding: 10px;
@@ -20,11 +37,12 @@ li {
 }
 /* -------- */
 .header-bg{
-    background-color: #f7ad5e;
+  background: rgb(247,173,94);
+background: linear-gradient(90deg, rgba(247,173,94,1) 0%, rgba(250,141,26,1) 50%, rgba(247,173,94,1) 100%);;
 }
 .jumbotron-fluid{
     /* background-color: #f7ad5e; */
-    
+
     text-align: center;
 }
 .jumbotron-fluid h1{
@@ -33,7 +51,7 @@ li {
 }
 .jumbotron-fluid p{
     color: #000000;
-   
+
 }
 #footer{
     background-color: blue;
@@ -50,4 +68,18 @@ li {
     .jumbotron-fluid h1 {
         font-size: 4rem;
     }
+}
+.bottom-container{
+
+  width: 100%;
+  position: fixed;
+  padding: 50px;
+  padding-bottom: 0;
+  bottom: 0;
+  font-size: 20px;
+  background: rgb(19,19,20);
+background: linear-gradient(90deg, rgba(19,19,20,1) 0%, rgba(59,56,56,1) 50%, rgba(0,0,0,1) 100%);
+  color: #eeecda;
+  text-align: center;
+  font-family: 'Bangers', cursive;
 }
