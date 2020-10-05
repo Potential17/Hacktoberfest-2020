@@ -13,9 +13,19 @@ h1{
 }
 a{
   color: #F8F8FF;
+  font-size: 30px;
+  font-family: balsamiq-Sans;
+}
+@font-face {
+  font-family: balsamiq-Sans;
+  src: url("BalsamiqSans-Regular.ttf");
+}
+@font-face {
+  font-family: balsamiq-Sans-italic;
+  src: url("BalsamiqSans-Italic.ttf");
 }
 a:hover {
-  color: rgb(19,19,20);
+  color: rgb(0, 0, 255);
   background: rgb(247,173,94);
   background: linear-gradient(90deg, rgba(247,173,94,1) 0%, rgba(250,141,26,1) 50%, rgba(247,173,94,1) 100%);
 }
