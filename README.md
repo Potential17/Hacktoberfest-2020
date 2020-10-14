@@ -2,15 +2,15 @@
 
 ## Follow these steps to make your first pull request-
 
-### Fork this repository.
+### 1. Fork this repository.
 
-### Clone your forked repository to your local machine.
+### 2. Clone your forked repository to your local machine.
 
-### In the index file, look for the 'ol' tag. Then insert a 'li' tag with your link to your profile.
+### 3. In the index file, look for the 'ol' tag. Then insert a 'li' tag with your link to your profile.
 
-### Add your name in index.html file.
+### 4. Add your name in index.html file.
 
-### Write these command on your terminal-
+### 5. Write these command on your terminal-
 
 ```sh
 git add index.html
@@ -36,4 +36,5 @@ git push [remote-name] master
 
 -->Check your progress here (https://hacktoberfest.digitalocean.com/profile)
 
-Wait for your swag kit :)
+### ✨ A beginner friendly repository made specifically for open source beginners,
+### The sole purpose of this repository is to help beginners learn Git & GitHub through easy first contribution.
