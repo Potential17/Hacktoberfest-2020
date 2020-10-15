@@ -84,3 +84,47 @@ background: linear-gradient(90deg, rgba(247,173,94,1) 0%, rgba(250,141,26,1) 50%
   text-align: center;
   font-family: 'Bangers', cursive;
 }
+#search-bar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+}
+.autocomplete-items{
+    color:white;
+    margin-left: 20px;
+}
+.autocomplete-items div{
+    padding: 5px;
+}
+#myInput{
+    padding: 5px 20px;
+    border-radius: 15px;
+    outline: none;
+    /* text-align: center; */
+}
+::-webkit-input-placeholder {
+    text-align: center;
+ }
+ 
+ :-moz-placeholder { /* Firefox 18- */
+    text-align: center;  
+ }
+ 
+ ::-moz-placeholder {  /* Firefox 19+ */
+    text-align: center;  
+ }
+ 
+ :-ms-input-placeholder {  
+    text-align: center; 
+ }
+ .list{
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-around;
+ }
+ li{
+     width: 300px;
+     padding: 15px 20px;
+     
+ }
