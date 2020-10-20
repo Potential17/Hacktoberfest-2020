@@ -24,6 +24,43 @@ h2{
   color: #F8F8FF;
   font-family: 'Roboto', sans-serif;
 }
+
+/*Intro transition page*/
+    .preload.display-none{
+        position: fixed;
+        opacity: 0;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100vh;
+        background: black;
+        z-index: -10;
+        color: white;
+        text-align: center;
+        line-height: 90vh;
+        transition: all 0.5s;
+      }
+    .preload{
+      width: 100%;
+      height: 100%;
+     background: #3B3131;
+      position: fixed;
+      top: 0;
+      left: 0;
+      z-index: 1;
+    }
+    .logo{
+      width: 300px;
+      height: 300px;
+      margin: 150px auto 50pc auto;
+      font-size: 100px;
+      font-family: 'Grandstander', cursive; 
+      text-shadow: -1px 2px 2px #000;
+      text-align: center;
+      color: azure;
+    }
+    
+
 .jumbotron-fluid{
     padding: 10px;
 }
