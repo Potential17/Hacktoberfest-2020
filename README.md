@@ -1,10 +1,13 @@
 # Welcome to HacktoberFest 2020!
+-> [Hacktoberfest](https://hacktoberfest.digitalocean.com/)
 
 ## Follow these steps to make your first pull request-
 
 ### 1. Fork this repository.
+-> [What is forking and how to fork.](https://www.youtube.com/watch?v=f5grYMXbAV0)
 
 ### 2. Clone your forked repository to your local machine.
+-> [What is cloning and how to clone.](https://www.youtube.com/watch?v=O72FWNeO-xY&list=PL5-da3qGB5IBLMp7LtN8Nc3Efd4hJq0kD&index=7)
 
 ### 3. In the index file, look for the 'ol' tag. Then insert a 'li' tag with your link to your profile.
 
